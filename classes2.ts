@@ -27,10 +27,6 @@ class UserController {
 }
 
 
-const userService = new UserServiceImpl();
-const userController = new UserController(userService);
-
-console.log(userController.loginUser());
 
 
 
@@ -48,7 +44,7 @@ myContainer.bind<UserService>(TYPES.UserService).to(UserServiceImpl);
 const UserService = myContainer.get<UserService>(TYPES.UserService)
 
 
-console.log(userService.login())
+console.log(UserService.login())
 
 
 

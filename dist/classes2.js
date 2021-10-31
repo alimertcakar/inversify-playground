@@ -38,11 +38,8 @@ UserController = __decorate([
     __param(0, (0, inversify_1.inject)(TYPES.UserService)),
     __metadata("design:paramtypes", [Object])
 ], UserController);
-const userService = new UserServiceImpl();
-const userController = new UserController(userService);
-console.log(userController.loginUser());
 const inversify_2 = require("inversify");
 const myContainer = new inversify_2.Container();
 myContainer.bind(TYPES.UserService).to(UserServiceImpl);
 const UserService = myContainer.get(TYPES.UserService);
-console.log(userService.login());
+console.log(UserService.login());
