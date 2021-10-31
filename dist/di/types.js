@@ -1,6 +1,10 @@
 "use strict";
+// file types.ts
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TYPES = void 0;
 const TYPES = {
-    Human: Symbol.for("Human")
+    Warrior: Symbol.for("Warrior"),
+    Weapon: Symbol.for("Weapon"),
+    ThrowableWeapon: Symbol.for("ThrowableWeapon"),
 };
-exports.default = TYPES;
+exports.TYPES = TYPES;

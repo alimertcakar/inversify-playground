@@ -1,5 +1,9 @@
-const TYPES = {
-    Human: Symbol.for("Human");
-}
+// file types.ts
 
-export default TYPES;
+const TYPES = {
+  Warrior: Symbol.for("Warrior"),
+  Weapon: Symbol.for("Weapon"),
+  ThrowableWeapon: Symbol.for("ThrowableWeapon"),
+};
+
+export { TYPES };

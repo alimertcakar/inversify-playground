@@ -1,5 +1,10 @@
-console.log("x");
+// import { Katana, Ninja, Shuriken } from "./classes";
 
-class ManService {}
+// const katana = new Katana();
+// const shuriken = new Shuriken();
 
-class ManController {}
+// const ninja = new Ninja(katana, shuriken);
+
+// console.log(ninja.fight());
+
+import "./classes2";
