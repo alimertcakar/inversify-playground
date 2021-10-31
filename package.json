@@ -1,0 +1,23 @@
+{
+  "name": "inversify-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimertcakar/inversify-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimertcakar/inversify-playground/issues"
+  },
+  "homepage": "https://github.com/alimertcakar/inversify-playground#readme",
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
